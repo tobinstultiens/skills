@@ -39,7 +39,3 @@ Only the tracked paths listed above are managed by git; everything else in the
 directory (credentials, session state, history, caches) stays ignored via
 `.gitignore`. Do not run `git add -A` here — stage skill and doc changes explicitly
 so local state and credentials are never committed.
-
-## Restoring skills
-
-To restore on another machine, clone this repository into a temporary location, then copy or sync the `skills\` folder into that machine's `.copilot` folder. Avoid cloning directly over an existing `.copilot` folder because it may already contain local settings, session state, and databases.
