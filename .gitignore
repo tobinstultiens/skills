@@ -14,3 +14,13 @@
 # Keep user-authored skills and their supporting files.
 !/skills/
 !/skills/**
+
+# Ignore flat-discovery symlinks — they duplicate skills already tracked
+# under the category folders (engineering/, productivity/). Regenerated locally.
+/skills/ask-flow
+/skills/domain-modeling
+/skills/grilling
+/skills/grill-me
+/skills/grill-with-docs
+/skills/handoff
+/skills/writing-great-skills
