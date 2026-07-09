@@ -1,0 +1,16 @@
+# Ignore local Copilot state by default.
+*
+
+# Keep the repository rules and guide.
+!/.gitattributes
+!/.gitignore
+!/README.md
+
+# Keep architectural decisions for this backup repo.
+!/docs/
+!/docs/adr/
+!/docs/adr/**
+
+# Keep user-authored skills and their supporting files.
+!/skills/
+!/skills/**
